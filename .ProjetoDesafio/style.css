@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+/*FONTE HEADER > H1*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+/*FONTE HEADER > H3*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/*FONTE SECTION > H1*/
+@font-face {
+    font-family: "Android";
+    src: url(pacote/fontes/idroid.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+header {
+    background-image: linear-gradient(to top, #133f25, #43e389);
+    padding: 1px;
+}
+
+header > h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+header > h1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 50px;
+}
+
+header > h3 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+    margin-top: -28px;
+}
+
+header > nav {
+    display: flex;
+    margin-top: 35px;
+    margin-left: 0px;
+    padding: 2px;
+    gap: 10px;
+}
+
+header > nav > .cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-width: 1px;
+    color: #ffffffc5;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.4s;
+}
+
+header > nav > .cabecalho:hover {
+    border-radius: 5px;
+    color: #000000;
+    background-color: #55ff55;
+}
+
+main {
+    height: 100%;
+    padding: 10px;
+    background-color: #84E1AD;
+}
+
+section {
+    background-color: white;
+    max-width: 1055px;
+    margin: -10px auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 1px 2px 10px 1px black;
+}
+
+section > h1 {
+    font-family: "Android";
+    font-size: 32px;
+    color: #1d543b;
+    margin: 15px;
+}
+
+section > h2 {
+    font-family: "Android";
+    color: #1d543b;
+    background-image: linear-gradient(to right, #3dd79262, #59ffb400);
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    text-indent: 4%;
+    padding: 10px;
+    line-height: 2em
+}
+
+.destaque { 
+    color: #288750;
+    font-weight: 700;
+}
+
+a {
+    color: #288750;
+    text-decoration: none;
+    font-weight: 700
+}
+
+a:hover {
+    background-color: #1d543b;
+    border-radius: 6px;
+    padding: 2px;
+    color: #6ffd6f;
+    text-decoration: underline;
+}
+
+.imagens {
+    width: 100%;
+}
+
+.imagem_menor {
+    text-align: center;
+}
+
+.video {
+    background-color: #1A5C38;
+    padding: 20px 0;
+    margin: auto;
+    text-align: center;
+}
+
+#tamanho_video {
+    height: auto;
+    max-width: 1000px;
+    margin: auto;
+    aspect-ratio: 16 / 9;
+}
+
+.artigo {
+    background-color: #2FA866;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-align: left;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.ultima_caixa {
+    background-color: #C5EBD6;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.284);
+}
+
+.container_lista {
+    display: flex;
+    font-size: 20px;
+    margin: -50px;
+    padding: 0px;
+    justify-content: space-evenly;
+}
+
+.lista {
+    list-style-type: none;
+    font-size: 22px;
+    padding: 30px
+}
+
+li::before {
+    content: '✓ ';
+    color: black;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #1A5C38;
+    text-align: center;
+    font-size: 20px;
+    font-weight: light;
+    padding: 7px;
+    color: rgba(255, 255, 255, 0.841);
+}
+
+.credito {
+    font-weight: bolder;
+    color: white;
+}
